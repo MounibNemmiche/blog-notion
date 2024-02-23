@@ -13,9 +13,7 @@ dependencies:
   '@giscus/react':
     specifier: ^2.2.8
     version: 2.2.8(react-dom@18.2.0)(react@18.2.0)
-  '@upstash/redis':
-    specifier: ^1.20.6
-    version: 1.20.6
+  
   '@vercel/analytics':
     specifier: ^1.0.0
     version: 1.0.0(react@18.2.0)
@@ -479,13 +477,7 @@ packages:
     resolution: {integrity: sha512-NfQ4gyz38SL8sDNrSixxU2Os1a5xcdFxipAFxYEuLUlvU2uDwS4NUpsImcf1//SlWItCVMMLiylsxbmNMToV/g==}
     dev: false
 
-  /@upstash/redis@1.20.6:
-    resolution: {integrity: sha512-q1izaYEUsq/WiXNOjf4oOjFZe8fIeBSZN8d5cEyOD4nem+zxc4jccieorQQrNlEahKPE1ZYLzVEkMODRUfch2g==}
-    dependencies:
-      isomorphic-fetch: 3.0.0
-    transitivePeerDependencies:
-      - encoding
-    dev: false
+ 
 
   /@vercel/analytics@1.0.0(react@18.2.0):
     resolution: {integrity: sha512-RQmj7pv82JwGDHrnKeRc6TtSw2U7rWNubc2IH0ernTzWTj02yr9zvIYiYJeztsBzrJtWv7m8Nz6vxxb+cdEtJw==}
