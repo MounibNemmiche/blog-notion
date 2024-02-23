@@ -62,11 +62,11 @@
     "semi": true,
     "jsxSingleQuote": true
   },
-  "pnpm": {
-    "patchedDependencies": {
-      "notion-client@6.16.0": "patches/notion-client@6.16.0.patch"
-    }
-  },
+ // "pnpm": {
+   // "patchedDependencies": {
+     // "notion-client@6.16.0": "patches/notion-client@6.16.0.patch"
+    //}
+ //},
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"
   }
